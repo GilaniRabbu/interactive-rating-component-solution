@@ -67,7 +67,7 @@ main {
     max-width: 100%;
     padding: 0.8rem;
     border-radius: 50%;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
     background-color: var(--clr-icon-bg);
 }
 
@@ -79,7 +79,7 @@ main {
 }
 
 .card-description {
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
     color: var(--clr-neutral-200);
 }
 
@@ -124,7 +124,6 @@ ul li button:focus {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     padding: 1rem;
-    margin-top: 0.5rem;
     border-radius: 2rem;
     border: 0;
     transition: 0.5s;
