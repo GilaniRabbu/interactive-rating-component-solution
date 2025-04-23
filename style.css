@@ -42,17 +42,6 @@ main {
     background: linear-gradient(var(--clr-neutral-400), var(--clr-neutral-bg));
 }
 
-@media (max-width: 768px) {
-    /* body {
-        max-width: 350px;
-        margin: 0 auto;
-    } */
-
-    .success-rate {
-        font-size: 0.75rem;
-    }
-}
-
 /* ======================================== */
 
 
@@ -88,7 +77,6 @@ ul {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
     justify-content: space-between;
 }
 
@@ -141,6 +129,11 @@ ul li button:focus {
 }
 
 @media (max-width: 768px) {
+    ul {
+        gap: 1rem;
+        justify-content: center;
+    }
+
     ul li button {
         font-size: 0.875rem;
         padding: 1rem 1.25rem;
@@ -203,6 +196,12 @@ ul li button:focus {
 .return-btn:hover {
     color: var(--clr-primary);
     background-color: var(--clr-neutral-100);
+}
+
+@media (max-width: 768px) {
+    .success-rate {
+        font-size: 0.75rem;
+    }
 }
 
 /* Thank you state end */
